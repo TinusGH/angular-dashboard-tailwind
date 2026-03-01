@@ -1,12 +1,14 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  template: `
+    <div class="min-h-screen bg-gray-100 p-6">
+      <router-outlet></router-outlet>
+    </div>
+  `,
 })
-export class App {
-  protected readonly title = signal('frontend-refresh');
-}
+export class AppComponent {}
