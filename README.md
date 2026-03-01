@@ -1,59 +1,36 @@
-# FrontendRefresh
+# Angular Dashboard Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+This is a **front-end project** built with **Angular 21** and **Tailwind CSS** to demonstrate:
 
-## Development server
+- Standalone components
+- Router + shared layout with sidebar
+- Dashboard with dynamic stat cards
+- Users table and project stats pages
+- Dark mode toggle
+- Responsive design
 
-To start a local development server, run:
+## Purpose
 
-```bash
-ng serve
-```
+This project was created as a **skills refresher/builder** . It can serve as a base for implementing Figma designs and demonstrating front-end fundamentals in Angular.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Features
 
-## Code scaffolding
+- **Dashboard**: Dynamic stat cards with conditional formatting
+- **Users Table**: Sample data table with light/dark themes
+- **Project Stats**: Grid layout with stat cards
+- **Dark Mode**: Toggle to switch themes globally
+- **Responsive Layout**: Works on mobile and desktop
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## Installation
 
 ```bash
-ng build
-```
+git clone https://github.com/<your-username>/angular-dashboard-tailwind.git
+cd angular-dashboard-tailwind
+npm install
+npm start
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Visit http://localhost:4200 in your browser to see the app.
 
-## Running unit tests
+License
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+MIT
